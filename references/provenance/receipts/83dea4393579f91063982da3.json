@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/roles/cumcm-step-review/roles/建模手/工作流程.md",
+  "output_sha256": "997ac21b7e205b17d2eabfd79b3a9e0a572f943dca49d14aad701fe74ea94be0",
+  "sources": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "references/roles/建模手/工作流程.md",
+      "sha256": "7830734c2006e39dac3d010234eeee44e63cf415bbf0c68be9643f1a69272907"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "references/roles/建模手/工作流程.md",
+      "action": "enhance",
+      "destination": "references/roles/cumcm-step-review/roles/建模手/工作流程.md",
+      "rule_id": "controlled-reference-adaptation-v1",
+      "evidence_type": "link-and-runtime-path-regression",
+      "test_ids": [
+        "tests/test_routing_content.py::test_operational_routed_markdown_has_no_stale_legacy_runtime_paths"
+      ]
+    }
+  ]
+}

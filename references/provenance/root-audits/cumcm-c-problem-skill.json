@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "status": "integrated",
+  "source": {
+    "source": "cumcm-c-problem",
+    "relative_path": "SKILL.md",
+    "sha256": "df61590a33413e2b0d923b53c9ca1041e2c1c5e2bb5cecb185eb1b6090e334aa",
+    "chunking": "utf8-frontmatter-and-heading-blocks-v1"
+  },
+  "chunks": [
+    {
+      "id": "frontmatter",
+      "sha256": "8101b875f7320bf1121c04ad32d46b536ab973352ecf93a1d0d1fd246b41b48e",
+      "heading": "frontmatter",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "SKILL.md",
+          "anchor": "数学建模统一工作流",
+          "evidence_terms": [
+            "CUMCM 本科组 C 题"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "preamble",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "heading": "preamble",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "SKILL.md",
+          "anchor": "数学建模统一工作流",
+          "evidence_terms": [
+            "唯一直接入口"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-001",
+      "sha256": "f16ac75ebe6da8cc5f907e36a01fccf2e96f05488b98d4fa9469be06495d1aa7",
+      "heading": "CUMCM C Problem Workflow",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/competition/c-problem.md",
+          "anchor": "CUMCM 本科组 C 题专用规则",
+          "evidence_terms": [
+            "transparent_first"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-002",
+      "sha256": "6530dc65725c2448d27c68f3b674b71f5be2aa65c87ba35a16ef288d9a5e0acb",
+      "heading": "0. 总原则",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/competition/c-problem.md",
+          "anchor": "C 题定位与演化",
+          "evidence_terms": [
+            "真实业务场景"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-003",
+      "sha256": "9bf66fd4bab82895da80791b930ec4ecc05c33a4768ecf93ddcff66397610010",
+      "heading": "1. 开始新 C 题前必须做的事",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/competition/cumcm.md",
+          "anchor": "赛题分析与建模",
+          "evidence_terms": [
+            "完整阅读赛题"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-004",
+      "sha256": "3f945e2c15b1b6c26f02fac5c5af4ea62bc6d9a91ef7c4d231d1f10c3558d901",
+      "heading": "2. C 题的默认建模思想",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/modeling/model-selection.md",
+          "anchor": "选型三层分离",
+          "evidence_terms": [
+            "验证层（validation）"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-005",
+      "sha256": "63bec8efa3530c7c9f49a3629b6bb8f146f2d43beaee815dff715857728b5546",
+      "heading": "3. 算法选择规则",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/modeling/algorithm-library.md",
+          "anchor": "使用规则",
+          "evidence_terms": [
+            "universal_fake_template_forbidden"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-006",
+      "sha256": "08e0038e654df1dacb04c96148baaaed5bdb70420014d3f38289e6db72a3168f",
+      "heading": "4. 创新规则",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/competition/c-problem.md",
+          "anchor": "模型选型与创新",
+          "evidence_terms": [
+            "visible_innovations"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-007",
+      "sha256": "c2cea4ceb087f1e9823617024c413a530a62065548f4d176a167b5c5dbe61435",
+      "heading": "5. 每问的固定写作微结构",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/writing/paper-guidance.md",
+          "anchor": "优秀论文的微结构模式（Micro-structure）",
+          "evidence_terms": [
+            "段落功能驱动"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-008",
+      "sha256": "58cce78dcb2232cd2fbe687420f6047970ad647df56008c37d3fdc01337da1b1",
+      "heading": "6. 论文固定结构",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/writing/cumcm-c-problem/paper-structure.md",
+          "anchor": "C 题论文结构与章节写法",
+          "evidence_terms": [
+            "摘要"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-009",
+      "sha256": "21c107bc8c4f7f7856630da27362bf7c989f553bfc30d4f3c3eacc6b82b11394",
+      "heading": "7. 摘要硬规范",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/writing/abstract.md",
+          "anchor": "摘要四要素结构",
+          "evidence_terms": [
+            "key_quantitative_results"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-010",
+      "sha256": "6377a4c121f8ac7dab22370593df4bc95472b942e364e13394faa4789e7625b9",
+      "heading": "8. 页数与内容密度",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/writing/paper-guidance.md",
+          "anchor": "标准章节序列与逻辑脉络",
+          "evidence_terms": [
+            "问题重述"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-011",
+      "sha256": "abb0e3b84c3c8912751efbaca2a6ad7e5ec1c0af549fd0a409f8fed2a91218f3",
+      "heading": "9. 图表是核心论证，不是装饰",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/visualization/visualization.md",
+          "anchor": "硬性图表规范",
+          "evidence_terms": [
+            "caption_position"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-012",
+      "sha256": "05394ce84273a75713eb522acfcf81a85dc6da9d70958d9c11030fa4f17e22dd",
+      "heading": "10. LaTeX 排版规则",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/writing/cumcm-c-problem/latex-template-guide.md",
+          "anchor": "用户模板与 LaTeX 排版规范",
+          "evidence_terms": [
+            "cumcmthesis"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-013",
+      "sha256": "06d221a50eaec86961139ab28eccfb214aa1e1db780b63aaf8b871b0c642df1e",
+      "heading": "11. 验证成熟度",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/quality/quality-gates.md",
+          "anchor": "质量门禁三层防护体系",
+          "evidence_terms": [
+            "author_self_check"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-014",
+      "sha256": "644e03ac577dda11ce08752e0cea2767b631c2ed45b745a1d7fc4d8b49b62323",
+      "heading": "12. 评委视角",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/quality/cumcm-c-problem/expert-review-guidance.md",
+          "anchor": "1. 证据层级",
+          "evidence_terms": [
+            "当前年度 CUMCM 官方文件"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-015",
+      "sha256": "09f0d0d603b9fe33b97783a0680ba0e3bf6077b1f9f6aa0e79151ad5bd9305b7",
+      "heading": "13. 实战执行顺序",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/competition/cumcm-c-problem/72h-workflow.md",
+          "anchor": "国赛 C 题 72 小时工作流",
+          "evidence_terms": [
+            "0–3h"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-016",
+      "sha256": "b32e733fe40d2843354f3ed10bacf55d6bc55acb07095ba8f69c1add734c8f27",
+      "heading": "14. 交付工程",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/modeling/cumcm-c-problem/source-index.md",
+          "anchor": "官方资料索引（2018–2025 C题）",
+          "evidence_terms": [
+            "重要版权说明"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-017",
+      "sha256": "a3597dfc3d70650b662ded19b4dd8c829af76fb1d58332bea18d3fb5125dd6ce",
+      "heading": "15. 资料使用边界",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/workflow/step-review.md",
+          "anchor": "共享规则优先级与完成纪律",
+          "evidence_terms": [
+            "用户审核是独立硬门禁"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    }
+  ]
+}

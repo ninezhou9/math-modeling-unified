@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/modeling/workspace/math-modeling-skill-详细总结.md",
+  "output_sha256": "349c82128f6d47c99335a1002e0039e0030321fa2a37d970fd5813ecaf1cb440",
+  "sources": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "math-modeling-skill-详细总结.md",
+      "sha256": "349c82128f6d47c99335a1002e0039e0030321fa2a37d970fd5813ecaf1cb440"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "math-modeling-skill-详细总结.md",
+      "action": "enhance",
+      "destination": "references/modeling/workspace/math-modeling-skill-详细总结.md",
+      "rule_id": "route-retained-workspace-markdown-v1",
+      "evidence_type": "operational-link-reachability-regression",
+      "test_ids": [
+        "tests/test_routing_content.py::test_all_workspace_markdown_sources_have_operational_read_when_routes"
+      ]
+    }
+  ]
+}

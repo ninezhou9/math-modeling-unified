@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/competition/workspace/CUMCM-Step-Review-Skill总结.md",
+  "output_sha256": "61af9967bea9d0985404f4885fa5576a73a954c174e3f21a8d804c8ea88d00b1",
+  "sources": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "CUMCM-Step-Review-Skill总结.md",
+      "sha256": "61af9967bea9d0985404f4885fa5576a73a954c174e3f21a8d804c8ea88d00b1"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "CUMCM-Step-Review-Skill总结.md",
+      "action": "enhance",
+      "destination": "references/competition/workspace/CUMCM-Step-Review-Skill总结.md",
+      "rule_id": "route-retained-workspace-markdown-v1",
+      "evidence_type": "operational-link-reachability-regression",
+      "test_ids": [
+        "tests/test_routing_content.py::test_all_workspace_markdown_sources_have_operational_read_when_routes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "scripts/cumcm-step-review/check_env.py",
+  "output_sha256": "62f2792a09aac330992103eda4c20c1d7a566cb0d2bb9f6925e1df1f36371911",
+  "sources": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "scripts/check_env.py",
+      "sha256": "002b98e078b7ebef5d4a3dbef7c5dd0bbd6e58129d47dc212ec9d7819d5d464c"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "scripts/check_env.py",
+      "action": "enhance",
+      "destination": "scripts/cumcm-step-review/check_env.py",
+      "rule_id": "controlled-tool-adaptation-v1",
+      "evidence_type": "tool-load-regression",
+      "test_ids": [
+        "tests/test_tools_smoke.py::test_python_tools_help_exits_zero"
+      ]
+    }
+  ]
+}

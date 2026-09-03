@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/roles/modeler.md",
+  "output_sha256": "3a442f956c1b910e669c4056f6bd3eb7c3a9336300e55f8600a453d2717d40fa",
+  "sources": [
+    {
+      "source": "math-modeling",
+      "relative_path": "references/roles/建模手/SKILL.md",
+      "sha256": "5454df3b295d5dfca8c32851b90049db333eade0571c5fd990c1eaf73a62f99f"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "math-modeling",
+      "relative_path": "references/roles/建模手/SKILL.md",
+      "action": "enhance",
+      "destination": "references/roles/modeler.md",
+      "rule_id": "consolidate-role-workflow-contract-v1",
+      "evidence_type": "contract-regression",
+      "test_ids": [
+        "tests/test_structure.py::test_role_loop_backtracks_without_repeating_frozen_work"
+      ]
+    }
+  ]
+}

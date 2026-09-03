@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/writing/cumcm-step-review/优秀论文写法指南.md",
+  "output_sha256": "7590e8c7a1f229e225feac000b3c1aae61ba213519ee0ecb3163f091ddcacb03",
+  "sources": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "references/优秀论文写法指南.md",
+      "sha256": "024b639d90c923906eeef4e131769500af63165943c0cc0f6905bf0d6d68b00b"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "references/优秀论文写法指南.md",
+      "action": "enhance",
+      "destination": "references/writing/cumcm-step-review/优秀论文写法指南.md",
+      "rule_id": "controlled-reference-adaptation-v1",
+      "evidence_type": "link-and-runtime-path-regression",
+      "test_ids": [
+        "tests/test_routing_content.py::test_operational_routed_markdown_has_no_stale_legacy_runtime_paths"
+      ]
+    }
+  ]
+}

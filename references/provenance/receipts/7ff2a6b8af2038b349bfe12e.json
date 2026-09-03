@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "tools/xlsx/source-variants/math-modeling/scripts/recalc.py",
+  "output_sha256": "813b8afff8ae03acae2b2e003d25e36a6797cca7a1d30a6f3f243391cb293eeb",
+  "sources": [
+    {
+      "source": "math-modeling",
+      "relative_path": "tools/xlsx/scripts/recalc.py",
+      "sha256": "950e427a07f6c66cd4eb8c12a5d82c9cafbd2ced7aa31aad97692b8be37c916b"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "math-modeling",
+      "relative_path": "tools/xlsx/scripts/recalc.py",
+      "action": "enhance",
+      "destination": "tools/xlsx/source-variants/math-modeling/scripts/recalc.py",
+      "rule_id": "controlled-tool-adaptation-v1",
+      "evidence_type": "tool-load-regression",
+      "test_ids": [
+        "tests/test_tools_smoke.py::test_python_tools_help_exits_zero"
+      ]
+    }
+  ]
+}

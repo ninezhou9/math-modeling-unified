@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "tools/xlsx/source-variants/cumcm-step-review/scripts/recalc.py",
+  "output_sha256": "caeaa1709730693403e7ff70533be5ee84e765896f4c113867969694fdda91c1",
+  "sources": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "tools/xlsx/scripts/recalc.py",
+      "sha256": "0d7896cf9a74717dbc0bc4182d807ac7eaeebb107b8cfd9970d65b7a14331b1c"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "tools/xlsx/scripts/recalc.py",
+      "action": "enhance",
+      "destination": "tools/xlsx/source-variants/cumcm-step-review/scripts/recalc.py",
+      "rule_id": "controlled-tool-adaptation-v1",
+      "evidence_type": "tool-load-regression",
+      "test_ids": [
+        "tests/test_tools_smoke.py::test_python_tools_help_exits_zero"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学建模统一工作流"
+  short_description: "逐步完成数学建模、代码求解、验证与论文写作"
+  default_prompt: "使用 $math-modeling-unified 按逐步审核门禁处理当前数学建模任务。"

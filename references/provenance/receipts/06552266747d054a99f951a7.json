@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "tools/docx/source-variants/cumcm-step-review/scripts/comment.py",
+  "output_sha256": "40ad1b989db8763a1c142501c3a9f24c727951c08230075a11fe3f0c35230635",
+  "sources": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "tools/docx/scripts/comment.py",
+      "sha256": "ea4277bb2ed9054863e42834c5bb94bd9168317c128f6b0bb97c7ded2856ab43"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "tools/docx/scripts/comment.py",
+      "action": "enhance",
+      "destination": "tools/docx/source-variants/cumcm-step-review/scripts/comment.py",
+      "rule_id": "controlled-tool-adaptation-v1",
+      "evidence_type": "tool-load-regression",
+      "test_ids": [
+        "tests/test_tools_smoke.py::test_python_tools_help_exits_zero"
+      ]
+    }
+  ]
+}

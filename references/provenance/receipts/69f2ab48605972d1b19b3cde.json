@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/workflow/step-review.md",
+  "output_sha256": "b4d752f40d045a999da0aad58adbbb815ca5d9bfedd373e28e28fa2b08c92c44",
+  "sources": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "references/阶段流程.md",
+      "sha256": "ae3d50356bec299aaa66fe4785a75116c440c57775dd4269173d50f76f4c9242"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "references/阶段流程.md",
+      "action": "enhance",
+      "destination": "references/workflow/step-review.md",
+      "rule_id": "consolidate-role-workflow-contract-v1",
+      "evidence_type": "contract-regression",
+      "test_ids": [
+        "tests/test_structure.py::test_role_loop_backtracks_without_repeating_frozen_work"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "tools/docx/source-variants/math-modeling/scripts/comment.py",
+  "output_sha256": "85d8a0bec92e85b19c85f722e03aa16251b9e01315a181fe5fb8cf7474dbb7ae",
+  "sources": [
+    {
+      "source": "math-modeling",
+      "relative_path": "tools/docx/scripts/comment.py",
+      "sha256": "f17900815781c0c537b427141e3f896a302b2e2d6947b50b7d0ac9a8c80ac87a"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "math-modeling",
+      "relative_path": "tools/docx/scripts/comment.py",
+      "action": "enhance",
+      "destination": "tools/docx/source-variants/math-modeling/scripts/comment.py",
+      "rule_id": "controlled-tool-adaptation-v1",
+      "evidence_type": "tool-load-regression",
+      "test_ids": [
+        "tests/test_tools_smoke.py::test_python_tools_help_exits_zero"
+      ]
+    }
+  ]
+}

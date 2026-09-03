@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/modeling/workspace/数学建模算法库_整合版.md",
+  "output_sha256": "aacd66fe761e26c2a9030d9b599ebef2efbc1c78fef9a115725ac93fffc9d133",
+  "sources": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "数学建模算法库_整合版.md",
+      "sha256": "aacd66fe761e26c2a9030d9b599ebef2efbc1c78fef9a115725ac93fffc9d133"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "数学建模算法库_整合版.md",
+      "action": "enhance",
+      "destination": "references/modeling/workspace/数学建模算法库_整合版.md",
+      "rule_id": "route-retained-workspace-markdown-v1",
+      "evidence_type": "operational-link-reachability-regression",
+      "test_ids": [
+        "tests/test_routing_content.py::test_all_workspace_markdown_sources_have_operational_read_when_routes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/roles/programmer.md",
+  "output_sha256": "79d4c7bef8d007d782eaaedfa29c2302f083834a6304c93c723443ad4438800f",
+  "sources": [
+    {
+      "source": "math-modeling",
+      "relative_path": "references/roles/编程手/SKILL.md",
+      "sha256": "ecd6feb44aa110ff762c3d64ba4db4bca13d0e6052b421494fcd2fb1d40e5f18"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "math-modeling",
+      "relative_path": "references/roles/编程手/SKILL.md",
+      "action": "enhance",
+      "destination": "references/roles/programmer.md",
+      "rule_id": "consolidate-role-workflow-contract-v1",
+      "evidence_type": "contract-regression",
+      "test_ids": [
+        "tests/test_structure.py::test_role_loop_backtracks_without_repeating_frozen_work"
+      ]
+    }
+  ]
+}

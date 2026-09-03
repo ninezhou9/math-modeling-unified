@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/writing/workspace/CUMCM写作证据门禁补充.md",
+  "output_sha256": "e09af4aedd03c0ea410b777bc2cc502e903f9b881742516710504b38a80ac793",
+  "sources": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "CUMCM写作证据门禁补充.md",
+      "sha256": "e09af4aedd03c0ea410b777bc2cc502e903f9b881742516710504b38a80ac793"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "CUMCM写作证据门禁补充.md",
+      "action": "enhance",
+      "destination": "references/writing/workspace/CUMCM写作证据门禁补充.md",
+      "rule_id": "route-retained-workspace-markdown-v1",
+      "evidence_type": "operational-link-reachability-regression",
+      "test_ids": [
+        "tests/test_routing_content.py::test_all_workspace_markdown_sources_have_operational_read_when_routes"
+      ]
+    }
+  ]
+}

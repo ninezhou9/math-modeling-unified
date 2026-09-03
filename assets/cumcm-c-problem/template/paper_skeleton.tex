@@ -1,0 +1,111 @@
+\documentclass[withoutpreface]{cumcmthesis}
+
+% 严格继承用户模板；只增加当前题目确有需要的宏包。
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{url}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,fit,shapes.geometric}
+\usepackage{mathtools}
+
+\title{论文题目}
+\tihao{C}
+\baominghao{xxxx}
+\schoolname{XX大学}
+\membera{ }
+\memberb{ }
+\memberc{ }
+\supervisor{ }
+\yearinput{2026}
+\monthinput{09}
+\dayinput{ }
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+% 第一段：背景矛盾 + 数据/机制特点 + 全文统一目标，2--4句。
+
+针对问题一，考虑到……，因此建立\textbf{……模型}，通过……得到……，并利用……验证……。
+
+针对问题二，在问题一……的基础上，为解决……，建立\textbf{……模型}。结果表明……。
+
+针对问题三，……。
+
+针对问题四，……。
+
+\keywords{关键词1\quad 关键词2\quad 关键词3\quad 关键词4}
+\end{abstract}
+\newpage
+
+\section{问题重述}
+\subsection{问题背景}
+\subsection{需要解决的问题}
+
+\section{问题分析}
+\subsection{问题一的分析}
+\subsection{问题二的分析}
+\subsection{问题三的分析}
+\subsection{问题四的分析}
+
+% 在问题分析末尾放高质量总览图，展示数据、模型、结果、验证的传递关系。
+
+\section{模型假设}
+
+\section{符号说明}
+\begin{table}[!htbp]
+\caption{主要符号说明}\label{tab:symbols}\centering
+\begin{tabular}{ccc}
+\toprule[1.5pt]
+符号 & 含义 & 单位\\
+\midrule[1pt]
+$x$ & 示例变量 & --\\
+\bottomrule[1.5pt]
+\end{tabular}
+\end{table}
+
+\section{模型的建立与求解}
+
+\subsection{问题一的模型建立与求解}
+\subsubsection{数据特征与建模动机}
+\subsubsection{模型建立}
+\subsubsection{模型求解与结果分析}
+\subsubsection{模型验证}
+
+\subsection{问题二的模型建立与求解}
+
+% 重要优化模型在推导后集中总括，例如：
+% \begin{equation}
+% \boxed{
+% \left\{
+% \begin{aligned}
+% \max_{\boldsymbol{x}}\quad & F(\boldsymbol{x}),\\
+% \text{s.t.}\quad & g_i(\boldsymbol{x})\le 0,\\
+% & h_j(\boldsymbol{x})=0,\\
+% & \boldsymbol{x}\in\Omega.
+% \end{aligned}
+% \right.
+% }
+% \end{equation}
+
+\subsection{问题三的模型建立与求解}
+
+\subsection{问题四的模型建立与求解}
+
+\section{模型评价与推广}
+
+\begin{thebibliography}{99}
+\bibitem{ref1} 作者. 文献标题[J]. 期刊, 年, 卷(期): 页码.
+\end{thebibliography}
+
+\begin{appendices}
+\section{支撑材料文件清单}
+\begin{itemize}
+\item code/：完整可运行代码；
+\item figures/：正文图；
+\item data/：自主查阅/处理的数据；
+\item support/：较大中间结果及按当年规则需要的其他支撑材料。
+\end{itemize}
+\end{appendices}
+
+\end{document}

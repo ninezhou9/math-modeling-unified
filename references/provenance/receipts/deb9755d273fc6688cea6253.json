@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "agents/openai.yaml",
+  "output_sha256": "5fe95f1c074ad6ac90b5ce065a7574855b72b04c789b8ce24ee28fbcd2706755",
+  "sources": [
+    {
+      "source": "cumcm-c-problem",
+      "relative_path": "agents/openai.yaml",
+      "sha256": "e6840bc274f1a24fb21148e8fd1991fe6470ab917c208fd1d9f586a096997c8f"
+    },
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "agents/openai.yaml",
+      "sha256": "9a41a7592c843f04ae72dc63aac3a665aece67fa11ed419b7ae24fc6424db8b4"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "cumcm-c-problem",
+      "relative_path": "agents/openai.yaml",
+      "action": "merge",
+      "destination": "agents/openai.yaml",
+      "rule_id": "merge-openai-interface-v1",
+      "evidence_type": "interface-schema-regression",
+      "test_ids": [
+        "tests/test_structure.py::test_openai_interface_is_exact_and_has_no_explicit_only_policy"
+      ]
+    },
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "agents/openai.yaml",
+      "action": "merge",
+      "destination": "agents/openai.yaml",
+      "rule_id": "merge-openai-interface-v1",
+      "evidence_type": "interface-schema-regression",
+      "test_ids": [
+        "tests/test_structure.py::test_openai_interface_is_exact_and_has_no_explicit_only_policy"
+      ]
+    }
+  ]
+}

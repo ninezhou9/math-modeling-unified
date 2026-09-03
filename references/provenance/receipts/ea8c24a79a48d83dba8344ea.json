@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/visualization/cumcm-step-review/绘图参考/drawio_flowchart.md",
+  "output_sha256": "1218be14c23ef7343fa22bfd41953e3933b1c0642365a275ea7123979dd0d7f1",
+  "sources": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "references/绘图参考/drawio_flowchart.md",
+      "sha256": "b52ef82f468ca3a43eb51a9f0bf55cbb1878797202fff4e09234a6ebcafb8f84"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "cumcm-step-review",
+      "relative_path": "references/绘图参考/drawio_flowchart.md",
+      "action": "enhance",
+      "destination": "references/visualization/cumcm-step-review/绘图参考/drawio_flowchart.md",
+      "rule_id": "controlled-reference-adaptation-v1",
+      "evidence_type": "link-and-runtime-path-regression",
+      "test_ids": [
+        "tests/test_routing_content.py::test_operational_routed_markdown_has_no_stale_legacy_runtime_paths"
+      ]
+    }
+  ]
+}

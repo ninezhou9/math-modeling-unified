@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "tests/migrated/math-modeling/test_docx_tools.py",
+  "output_sha256": "ac224311994df6a9c481bc18a05e2fd1498d5eca62bd3866e3017489357c45d8",
+  "sources": [
+    {
+      "source": "math-modeling",
+      "relative_path": "tests/test_docx_tools.py",
+      "sha256": "92ec737e547e766affa81e56c4a9a5699078e210acdb88f3f6cfb8462ed01fbb"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "math-modeling",
+      "relative_path": "tests/test_docx_tools.py",
+      "action": "enhance",
+      "destination": "tests/migrated/math-modeling/test_docx_tools.py",
+      "rule_id": "controlled-test-adaptation-v1",
+      "evidence_type": "relocated-test-regression",
+      "test_ids": [
+        "tests/test_coverage.py::test_checked_in_matrix_is_complete_deterministic_and_planning_valid"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "status": "integrated",
+  "source": {
+    "source": "cumcm-step-review",
+    "relative_path": "SKILL.md",
+    "sha256": "57e2597fe191ca31bac9ec9a26da4277a553e2582afab00e2bcc73e54f2fa2c6",
+    "chunking": "utf8-frontmatter-and-heading-blocks-v1"
+  },
+  "chunks": [
+    {
+      "id": "frontmatter",
+      "sha256": "777f95cd58fa18178be00caf5e4e91cb6492b070066a5174462e967e4aba019a",
+      "heading": "frontmatter",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "SKILL.md",
+          "anchor": "数学建模统一工作流",
+          "evidence_terms": [
+            "逐步审核与冻结工作流"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "preamble",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "heading": "preamble",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "SKILL.md",
+          "anchor": "数学建模统一工作流",
+          "evidence_terms": [
+            "唯一直接入口"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-001",
+      "sha256": "249b11cc9d4acf02464c7fa4a202a7707dcc868add477b86cbe49b8b29fcf57b",
+      "heading": "数学建模国赛-逐步审核版",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "SKILL.md",
+          "anchor": "数学建模统一工作流",
+          "evidence_terms": [
+            "三角色按"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-002",
+      "sha256": "b3a3f66bd939cfeb2e8e087a853382ded3eabaa970388d5663ed871e8020c1fb",
+      "heading": "定位",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "SKILL.md",
+          "anchor": "根目录与单一入口",
+          "evidence_terms": [
+            "PROJECT_ROOT"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-003",
+      "sha256": "392a150d3091f936a3ec6c9bf8f89b1509fc3eb86f482fc0f7a431f9f52bec2f",
+      "heading": "根目录契约",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/workflow/deliverables.md",
+          "anchor": "根目录合同",
+          "evidence_terms": [
+            "SKILL_ROOT"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-004",
+      "sha256": "bf0eb6d245f316e6dd793914df790459e421b17736b9e14cf7442d16cbba350f",
+      "heading": "强制执行协议",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/workflow/step-review.md",
+          "anchor": "路由合同",
+          "evidence_terms": [
+            "user_approves_candidate"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-005",
+      "sha256": "6226accc2e9e8a05d0dbf23221173dad1dbc187c45cd745b6d4cc059f99209ce",
+      "heading": "论文草稿（审核载体）",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/roles/writer.md",
+          "anchor": "分步 Word 审核",
+          "evidence_terms": [
+            "论文草稿.docx"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-006",
+      "sha256": "9c303c1d1c9224241491fab2b801634cc8852cbb0e378129edc2d582bfe391de",
+      "heading": "分步审核流程",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/workflow/step-review.md",
+          "anchor": "分类型门禁",
+          "evidence_terms": [
+            "局部任务"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-007",
+      "sha256": "f5add2eb295a823d5bd5434d90686291e3b1596a96a8a19d33f15474808e540c",
+      "heading": "路由",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "SKILL.md",
+          "anchor": "渐进式加载",
+          "evidence_terms": [
+            "禁止一次性加载全部资料"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-008",
+      "sha256": "74d7a47c8e25ebc953318e70693b21ba28a4db9761d65c15c6b6a2560cf61f77",
+      "heading": "固定交付物",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/workflow/step-review.md",
+          "anchor": "CUMCM 写作与审核顺序",
+          "evidence_terms": [
+            "问题重述"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-009",
+      "sha256": "adc1a58812cda297c5ba0f8641cad8492deb6a3436e79db1fa709f14139b41a9",
+      "heading": "质量门禁",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/quality/quality-gates.md",
+          "anchor": "质量门禁三层防护体系",
+          "evidence_terms": [
+            "user_review_hard_gate"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-010",
+      "sha256": "796874c2748c61d998ddeabde0b6db38e9362ec61d557e90f2fe307e1abe8b82",
+      "heading": "建模约束",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/modeling/model-selection.md",
+          "anchor": "选型起点",
+          "evidence_terms": [
+            "约束"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-011",
+      "sha256": "359562e7594c30b667db37144f5f5d13a901a75de7f854debbd7ffca70bf78b0",
+      "heading": "图表规范（用户定制，硬性）",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/visualization/visualization.md",
+          "anchor": "硬性图表规范",
+          "evidence_terms": [
+            "in_figure_title_forbidden"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-012",
+      "sha256": "323a226362d6d5e79611bc5096c17735747561cbb52a68d205e1001833e528f5",
+      "heading": "渐进式加载",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/workflow/step-review.md",
+          "anchor": "完成纪律",
+          "evidence_terms": [
+            "计算结论必须来自真实运行"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    },
+    {
+      "id": "section-013",
+      "sha256": "7ceb0a3120c106bda86a80af3c769fa500f5d0b9ac1f80cf5833ba363a1cf603",
+      "heading": "完成判定",
+      "disposition": "integrated",
+      "destinations": [
+        {
+          "path": "references/quality/quality-gates.md",
+          "anchor": "质量门禁与验收规范",
+          "evidence_terms": [
+            "final_acceptance_checks"
+          ]
+        }
+      ],
+      "rationale": "This exact source block is operationalized by the declared unified module; the anchor and evidence term are verifier-checked."
+    }
+  ]
+}

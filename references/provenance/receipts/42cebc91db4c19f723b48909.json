@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "byte-integrity-controlled-adaptation",
+  "destination": "references/writing/workspace/优秀论文特点与Skill补充建议.md",
+  "output_sha256": "165b28e22c8faa2933a47e81e065610b4602499357813e54255cf0282ed256d4",
+  "sources": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "优秀论文特点与Skill补充建议.md",
+      "sha256": "165b28e22c8faa2933a47e81e065610b4602499357813e54255cf0282ed256d4"
+    }
+  ],
+  "bindings": [
+    {
+      "source": "workspace-markdown",
+      "relative_path": "优秀论文特点与Skill补充建议.md",
+      "action": "enhance",
+      "destination": "references/writing/workspace/优秀论文特点与Skill补充建议.md",
+      "rule_id": "route-retained-workspace-markdown-v1",
+      "evidence_type": "operational-link-reachability-regression",
+      "test_ids": [
+        "tests/test_routing_content.py::test_all_workspace_markdown_sources_have_operational_read_when_routes"
+      ]
+    }
+  ]
+}
